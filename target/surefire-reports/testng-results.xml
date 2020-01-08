@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="2923" started-at="2020-01-03T08:52:44Z" finished-at="2020-01-03T08:52:47Z">
+  <suite name="Command line suite" duration-ms="3554" started-at="2020-01-06T07:22:40Z" finished-at="2020-01-06T07:22:43Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2923" started-at="2020-01-03T08:52:44Z" finished-at="2020-01-03T08:52:47Z">
+    <test name="Command line test" duration-ms="3554" started-at="2020-01-06T07:22:40Z" finished-at="2020-01-06T07:22:43Z">
       <class name="zoho.app.test.Testcount">
-        <test-method status="FAIL" signature="verifycountobj()[pri:0, instance:zoho.app.test.Testcount@6c130c45]" name="verifycountobj" duration-ms="2764" started-at="2020-01-03T14:22:44Z" finished-at="2020-01-03T14:22:47Z">
+        <test-method status="FAIL" signature="verifycountobj()[pri:0, instance:zoho.app.test.Testcount@6c130c45]" name="verifycountobj" duration-ms="3392" started-at="2020-01-06T12:52:40Z" finished-at="2020-01-06T12:52:43Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[For input string: "e"]]>
@@ -61,15 +61,15 @@
         </test-method> <!-- verifycountobj -->
       </class> <!-- zoho.app.test.Testcount -->
       <class name="zoho.app.test.HomepageTest">
-        <test-method status="PASS" signature="verifyDresses()[pri:0, instance:zoho.app.test.HomepageTest@693fe6c9]" name="verifyDresses" duration-ms="62" started-at="2020-01-03T14:22:44Z" finished-at="2020-01-03T14:22:44Z">
+        <test-method status="PASS" signature="verifyDresses()[pri:0, instance:zoho.app.test.HomepageTest@693fe6c9]" name="verifyDresses" duration-ms="61" started-at="2020-01-06T12:52:40Z" finished-at="2020-01-06T12:52:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDresses -->
-        <test-method status="PASS" signature="verifyTshirts()[pri:0, instance:zoho.app.test.HomepageTest@693fe6c9]" name="verifyTshirts" duration-ms="51" started-at="2020-01-03T14:22:44Z" finished-at="2020-01-03T14:22:44Z">
+        <test-method status="PASS" signature="verifyTshirts()[pri:0, instance:zoho.app.test.HomepageTest@693fe6c9]" name="verifyTshirts" duration-ms="50" started-at="2020-01-06T12:52:40Z" finished-at="2020-01-06T12:52:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTshirts -->
-        <test-method status="PASS" signature="verifyWomen()[pri:0, instance:zoho.app.test.HomepageTest@693fe6c9]" name="verifyWomen" duration-ms="34" started-at="2020-01-03T14:22:44Z" finished-at="2020-01-03T14:22:44Z">
+        <test-method status="PASS" signature="verifyWomen()[pri:0, instance:zoho.app.test.HomepageTest@693fe6c9]" name="verifyWomen" duration-ms="37" started-at="2020-01-06T12:52:40Z" finished-at="2020-01-06T12:52:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWomen -->

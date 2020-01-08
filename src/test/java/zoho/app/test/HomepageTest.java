@@ -31,4 +31,19 @@ public class HomepageTest {
 		Assert.assertTrue(Hp.verifyTshirts().isDisplayed());
 	}
 	
+	@Test
+	public void verifyclick(){
+		Hp.clickwomen();
+		Assert.assertTrue(Hp.getTitlte().contains("Women"));
+
+	
+	    Hp.clickdresses();
+		Assert.assertTrue(Hp.getTitlte().contains("Dresses"));
+	
+		Hp.clickTshirts();
+		Assert.assertTrue(Hp.getTitlte().contains("T-shirts"));
+	
+	}
+		
+	
 }
